@@ -69,6 +69,7 @@
 #order-wrapper > h3 {
     height: 45px;
     margin-top: 30px;
+    color: var(--dark-blue);
 }
 
 #order-wrapper > p {
@@ -84,6 +85,12 @@ button {
     height: 55px;
     width: 100%;
     border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 #illustration-image {
@@ -94,17 +101,23 @@ button {
 #charge-wrapper {
     height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--very-pale-blue);
-    border-radius: 20px;
+    border-radius: 15px;
 
     margin-bottom: 20px;
 }
 
 #change-text {
-    height: 40%;
+    height: 30%;
     width: 50%;
+    color: var(--bright-blue);
+    text-decoration: underline;
+}
+
+#change-text:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #plan-wrapper {
@@ -119,10 +132,12 @@ p {
 }
 
 #image-wrapper-icon {
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 10px
 }
 
 #music-icon{
@@ -130,6 +145,25 @@ p {
     width: 50px;
 }
 
+#blue-button {
+    background-color: var(--bright-blue);
+    color: var(--pale-blue);
+    box-shadow: 0px 100px 1000px rgba(0, 0, 0, 0.1);
+}
+
+#white-button {
+    color: var(--desaturated-blue);
+    background-color: white;
+}
+
+#plan-text {
+    color: var(--dark-blue);
+}
+
+#price-text {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
 /*
     FONT INFO
     
